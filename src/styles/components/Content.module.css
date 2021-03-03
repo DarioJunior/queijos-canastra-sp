@@ -1,0 +1,44 @@
+.container {
+  max-width: 1440px;
+  margin: auto;
+  padding-top: 2rem;
+  display: grid;
+  grid-template-columns: 35% 65%;
+  grid-template-rows: 600px;
+  font-size: 1.5rem;
+  text-align: center;
+  /* padding: 2rem 14rem 0rem 14rem; */
+}
+
+.container h2 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.tricks {
+  color: white;
+  line-height: 3rem;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 2rem;
+  padding: 10px;
+}
+
+.cheese {
+  margin-left: 30px;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 2rem;
+  color: white;
+  padding-top: 1rem;
+}
+
+.cheesesImage {
+  margin-top: 1rem;
+  width: 70%;
+  height: 70%;
+  background-color: cadetblue;
+}
+
+.cheese p {
+  font-size: 1rem;
+  text-align: center;
+}

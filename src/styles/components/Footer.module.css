@@ -1,0 +1,36 @@
+.container {
+  position: relative;
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0.3);
+  height: 12vh;
+  width: 100vw;
+  margin-top: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container > button {
+  width: 360px;
+  height: 80px;
+
+  font-size: 2rem;
+  font-weight: 800;
+  color: white;
+
+  position: relative;
+  left: 280px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: linear-gradient(180deg, #007e05 0%, rgba(255, 255, 255, 0) 100%),
+    #00a907;
+  border-radius: 15px;
+}
+
+.container p {
+  margin-top: 10px;
+  margin-right: 10px;
+}
