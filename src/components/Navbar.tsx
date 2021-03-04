@@ -1,6 +1,5 @@
 import styles from '../styles/components/Navbar.module.css';
 
-
 export default function Navbar() {
     return (
         <div className={styles.container}>
@@ -21,7 +20,15 @@ export default function Navbar() {
                         <img className={styles.logo} src="images/logo.png" alt="Logo Queijos Canastra"/>
                     </div>
                     <div className={styles.link}>
-                        <a href="#">Produtos</a>
+                        <button className={styles.productsOptions}>Produtos</button>
+                        <div className={styles.dropDownItems}>
+                            <a href="#">Queijos Trufados</a>
+                            <a href="#">Queijos Gorgonzola</a>
+                            <a href="#">Salames</a>
+                            <a href="#">Doces de Leite</a>
+                            <a href="#">Cachaças</a>
+                            <a href="#">Azeites</a>
+                        </div>
                         <a href="#">Contato</a>
                     </div>
                 </div>

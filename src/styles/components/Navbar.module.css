@@ -56,6 +56,12 @@
 
   display: flex;
   justify-content: space-between;
+
+  position: relative; /*pra usar absolute no dropdwon*/
+}
+
+.link a:last-child {
+  margin-left: 10px;
 }
 
 .link a {
@@ -69,4 +75,40 @@
   /* text-decoration: none; */
   color: var(--white);
   /* border-bottom: 5px solid red; */
+}
+
+.productsOptions {
+  width: 8rem;
+  height: 2.5rem;
+  background-color: var(--links);
+  font-weight: 600;
+  padding: 0 5px 0 5px;
+  border-radius: 15px;
+}
+
+.dropDownItems {
+  background-color: #fab11f;
+  /* background-color: rgba(255, 180, 0, 0.2); */
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+  padding: 5px 10px 5px 10px;
+
+  width: 250px;
+  text-align: center;
+  position: absolute;
+  top: 40px;
+  left: -65px;
+  display: none;
+  z-index: 1;
+}
+
+.dropDownItems a {
+  display: block;
+}
+
+.dropDownItems a:hover {
+}
+
+.link:hover .dropDownItems {
+  display: block;
 }
